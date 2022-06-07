@@ -1,0 +1,124 @@
+
+
+.app-main__outer{
+    background-image: url('pisobg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-src img{
+    height: 25px;
+    width: 125px;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    margin-right: 30px;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.app-header__logo .logo-src {
+    height: 23px;
+    width: 97px;
+    background: none;
+    opacity: 100%;
+}
+
+
+.vertical-nav-menu i.metismenu-icon {
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -17px;
+    font-size: 1.5rem;
+    transition: color 300ms;
+}
+
+[class^=pe-7s-], [class*=" pe-7s-"] {
+    display: inline-block;
+    font-family: pe-icon-7-stroke;
+    speak: none;
+    font-style: normal;
+    font-weight: 700;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-angle-down{
+    color: black;
+}
+
+/* order list dropdown */
+  .container {
+    width: 60px;
+  }
+  
+  /*Styling Selectbox*/
+  .dropdown {
+    width: 60px;
+    display: inline-block;
+    background-color: #3f6ad8;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    transition: all .5s ease;
+    position: relative;
+    font-size: .8rem;
+    color: white;
+    height: 100%;
+    outline: 0;
+  }
+
+  .dropdown .select {
+      cursor: pointer;
+      display: block;
+      padding: 6px;
+      
+  }
+  
+ 
+  .dropdown.active .select > i {
+      transform: rotate(-90deg)
+  }
+  .dropdown .dropdown-menus {
+      position: absolute;
+      background-color: #fff;
+      width: 100%;
+      left: 0;
+      margin-top: 1px;
+      box-shadow: 0 1px 2px rgb(204, 204, 204);
+      border-radius: 0 1px 5px 5px;
+      overflow: hidden;
+      display: none;
+      max-height: 144px;
+      overflow-y: auto;
+      z-index: 9;
+      outline: 0;
+  }
+  .dropdown .dropdown-menus li {
+      padding: 10px;
+      transition: all .2s ease-in-out;
+      cursor: pointer;
+    
+      text-align: left;
+  } 
+  .dropdown .dropdown-menus {
+      padding: 0;
+      list-style: none;
+      width: 100px;
+  }
+  
+  .dropdown .dropdown-menus li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    text-align: left;
+    color: black;
+}
+
