@@ -1,5 +1,16 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    overflow: hidden;
+    height: 100%;
+    widows: 100%;
+    
+}
 .app-main__outer{
     background-image: url('pisobg.png');
     background-repeat: no-repeat;
@@ -25,7 +36,29 @@
     opacity: 100%;
 }
 
+.app-header .app-header__content .header-menu .nav-link .fa-solid{
+    color: #d1d1d1;
+    font-size: 1.1rem;
+    width: 30px;
+    height: 34px;
+    line-height: 34px;
+    
 
+}
+.fa-solid{
+    color: #d1d1d1;
+    font-size: 2rem;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    
+
+}
+.closed-sidebar .app-sidebar .app-sidebar__inner .fa-solid {
+    text-indent: 0;
+    right: 50%;
+    margin-left: -5px;
+}
 .vertical-nav-menu i.metismenu-icon {
     text-align: center;
     width: 34px;
@@ -37,6 +70,19 @@
     margin-top: -17px;
     font-size: 1.5rem;
     transition: color 300ms;
+}
+.vertical-nav-menu i.fa-solid {
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    margin-top: -17px;
+    font-size: 1.1rem;
+    transition: color 300ms;
+    color: #d1d1d1;
 }
 
 [class^=pe-7s-], [class*=" pe-7s-"] {
