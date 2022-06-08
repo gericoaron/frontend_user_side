@@ -244,5 +244,5 @@ document.querySelector(".jsFilter").addEventListener("click", function () {
     localStorage.setItem("cart", JSON.stringify(cart));
     countCartTotal();
   }
-  // paypal checkout method
+ 
  
