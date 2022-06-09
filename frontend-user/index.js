@@ -245,4 +245,4 @@ document.querySelector(".jsFilter").addEventListener("click", function () {
     countCartTotal();
   }
  
- 
+
